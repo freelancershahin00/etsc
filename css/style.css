@@ -144,13 +144,11 @@ section {
 					
 #trade {
 	margin-top: 50px;
-	padding: 50px;
 	color: orange;
 }
 
 #trade .item {
 	margin-top: 50px;
-	padding: 50px;
 	background: url(..//img/tradebg.jpg) fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
