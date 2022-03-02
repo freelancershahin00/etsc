@@ -1,0 +1,237 @@
+					/***** fonts *****/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Flat&family=Redressed&family=Rowdies:wght@300;400;700&family=Share+Tech&family=Share+Tech+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Flat&family=Redressed&family=Rowdies:wght@300;400;700&family=Share+Tech&family=Share+Tech+Mono&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&family=Redressed&family=Rowdies:wght@300;400;700&family=Share+Tech&family=Share+Tech+Mono&display=swap');
+
+
+					/***** end fonts *****/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+					
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Hind Siliguri', sans-serif;
+	letter-spacing: 2px;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+}
+
+.btn	{
+	text-align: center;
+	font-weight: bold;
+}
+
+			/***** topBtn *****/
+			
+#topBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 50px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+}
+		
+			/***** end topBtn *****/
+
+#social i {
+	padding: 10px;
+	color: green;
+	font-size: 22px;
+}
+	#social i:hover {
+		transform: scale(1.1);
+		color: orange;
+		background: #9999991f;
+		border-radius: 100%;
+		padding: 10px;
+		width: 40px;
+		height: 40px;
+	}
+	
+			/*** section ***/
+section {
+	text-align: center;
+}
+
+.reveal{
+	position: relative;
+	transform: translateY(150px);
+	opacity: 0;
+	transition: 1s all ease;
+}
+
+.reveal.active{
+	transform: translateY(0);
+	opacity: 1;
+}
+			/*** end section ***/
+
+					/***** navbar *****/
+
+.navbar {
+	background: #e3ffe0;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	background: tomato;
+	color: white;
+	transform: scale(0.9);
+}
+
+					/***** end navbar *****/
+					
+#carousel h3 {
+	color: red;
+}
+
+.carousel-indicators .active {
+    background: #adff79;
+    width: 40px;
+    height: 0px;
+    outline: 2px solid green;
+}
+
+.notice small {
+	color: #777;
+	font-size: 12px;
+}
+
+.notice small i	{
+	color: green;
+	font-size: 14px;
+}
+
+		/*** principal speach ***/
+		
+#principal	{
+	margin-top: -100px;
+}
+
+#principal .container	{
+	box-shadow: 10px 10px 10px gray;
+	background: #fff;
+	padding: 50px;
+}
+
+	#principal .container:hover	{
+		box-shadow: none;
+	}
+
+.profileLink a	{
+	font-size: 22px;
+	color: orange;
+	padding: 10px;
+}
+
+	.profileLink i:hover	{
+		color: green;
+		transform: scale(1.2);
+	}
+		
+		/*** end principal speach ***/
+
+					/***** trade *****/
+					
+#trade {
+	margin-top: 50px;
+	padding: 50px;
+	color: orange;
+}
+
+#trade .item {
+	margin-top: 50px;
+	padding: 50px;
+	background: url(..//img/tradebg.jpg) fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#trade .item img {
+	border-radius: 100%;
+	border: 10px solid orange;
+	outline: 10px solid green;
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	margin: 30px 0;
+}
+
+.imgcontainer {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #00000090;
+  border-radius: 100%;
+}
+
+.imgcontainer:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+					
+					/***** end trade *****/
+					
+					/***** login *****/
+				
+#login .card-transparent	{
+	padding: 15px;
+}
+
+#login .card-transparent	i	{
+	font-size: 35px;
+	color: orange;
+}
+
+#login .text-muted a:hover	{
+	text-decoration: underline;
+}
+					
+					/***** end login *****/
+					
+					/***** footer *****/
+					
+#footer	{
+	background: #fcf09d52;
+	padding: 50px;
+}
+
+#footer .contact b	{
+	font-size: 18px;
+	color: green;
+	float: left;
+}
+				
+					/***** end footer *****/
