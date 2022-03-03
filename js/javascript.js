@@ -1,5 +1,14 @@
+
+					// datetime //
+
+function datetime(){					
+	document.getElementById("datetimeShow").innerHTML = Date();
+	document.getElementById("datetimeShow").style.color = "green";
+}
 					
-					// DOMContentLoaded //
+					// datetime //
+					
+					// stickyNav //
 document.addEventListener("DOMContentLoaded", function(){
   window.addEventListener('scroll', function() {
       if (window.scrollY > 50) {
@@ -14,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function(){
       } 
   });
 }); 
-					// DOMContentLoaded  end //
+					// end stickyNav //
 					
 					/***** reveal *****/
 					
