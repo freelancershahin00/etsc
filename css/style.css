@@ -86,10 +86,6 @@ section {
 }
 
 					/***** end navbar *****/
-					
-#carousel h3 {
-	color: red;
-}
 
 .carousel-indicators .active {
     background: #adff79;
@@ -100,12 +96,12 @@ section {
 
 .notice small {
 	color: #777;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .notice small i	{
 	color: green;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 		/*** principal speach ***/
@@ -146,8 +142,8 @@ section {
 
 #trade .item {
 	margin-top: 50px;
-	background: url(..//img/tradebg.jpg) fixed;
-	background-repeat: no-repeat;
+	padding: 20px;
+	background: url(..//img/tradebg.jpg) no-repeat;
 	background-size: cover;
 }
 
@@ -175,14 +171,9 @@ section {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
   transition: .5s ease;
   background-color: #00000090;
   border-radius: 100%;
-}
-
-.imgcontainer:hover .overlay {
-  opacity: 1;
 }
 
 .text {
