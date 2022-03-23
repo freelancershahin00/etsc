@@ -89,9 +89,10 @@ section {
 
 .carousel-indicators .active {
     background: #adff79;
-    width: 40px;
+    width: 20px;
     height: 0px;
     outline: 2px solid green;
+	border-radius: 100%;
 }
 
 .notice small {
