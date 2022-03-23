@@ -88,10 +88,9 @@ section {
 					/***** end navbar *****/
 
 .carousel-indicators .active {
-    background: #adff79;
+    background: #00ffa3;
     width: 20px;
     height: 0px;
-    outline: 2px solid green;
 	border-radius: 100%;
 }
 
